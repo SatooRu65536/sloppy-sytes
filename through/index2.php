@@ -1,18 +1,3 @@
-<?php
-
-$def = 'value="https://nagi65536.ddns.net/syuyu/syuyu.html"';
-
-$unitime = time();
-date_default_timezone_set('Asia/Tokyo');
-
-$url = $_POST['url'];
-$ip = $_SERVER["REMOTE_ADDR"];
-
-$pdo = new PDO('mysql:host=localhost;dbname=through', 'through', 'through1357');
-$sql_cmd = 'INSERT INTO main (ip, url, date) VALUES ("' . $ip . '","' . $url . '",now())';
-$result_rows = $pdo->query($sql_cmd);
-?>
-
 <!DOCTYPE html>
 <html lang="jp">
 
@@ -84,15 +69,6 @@ $result_rows = $pdo->query($sql_cmd);
         ?>
 
     </div>
-
-    <script text="javascript">
-        let url = new URL(window.location.href);
-        let params = url.searchParams;
-        params.delete('def');
-        console.log(params.get('def'));
-        console.log('ok');
-        history.replaceState('', '', url.pathname);
-    </script>
 
 </body>
 
