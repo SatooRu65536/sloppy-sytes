@@ -1,0 +1,46 @@
+body {
+    padding: 10%;
+    padding-top: 5%;
+    background-color: #eeeeee;
+}
+
+main {
+    height: 300px;
+}
+
+h4 {
+    margin: 0;
+}
+
+#word,
+#canswer {
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+#num {
+    margin-top: 0;
+}
+
+#is_memorized {
+    margin-top: 20px;
+}
+
+#range {
+    margin-top: 20px;
+    display: none;
+}
+
+.range_c {
+    margin: 0;
+}
+
+.cbxs {
+    transform: scale(1.5);
+}
+
+.memorized {
+    margin: 0;
+    padding: 0;
+}

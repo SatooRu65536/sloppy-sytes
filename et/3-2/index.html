@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>英語 3年1学期期末</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <main onclick="touch()">
+    <p id="word"></p>
+    <p id="canswer"></p>
+    <p id="num"></p>
+  </main>
+
+ <!-- <input type="text" id="memo" size="30" value="memo"><br> -->
+
+  <label for="memorize_cbx"onclick="memorized()">
+    <input type="checkbox" id="memorize_cbx" class="cbxs" name="memorize_cbx" value="v1"> 覚えたらチェック
+  </label><br>
+  <label for="cbx">
+    <input type="checkbox" id="cbx" class="cbxs" name="cbx" value="v1"> 日英を入れ替える
+  </label><br>
+  <label for="random">
+    <input type="checkbox" id="random" class="cbxs" name="random" value="v1"> ランダムにする
+  </label><br>
+  <label for="input">
+    <input type="text" id="number" size="5"> 単語目に移動
+  </label>
+
+  <div id="range"></div>
+  <h4>単語をタップ!</h4>
+<hr>
+<h3 id="look" onclick="look(1)">ここをタッチして表示</h3>
+  <div id="is_memorized">
+    <input type="checkbox" class="memorized" id="memorized_all" onclick="memorized_all_click()"/> <label for="memorized_all" id="memorized_all_label">全てチェック</label>
+  </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./jquery.cookie.js"></script>
+<script src="./script.js"></script>
+
+</html>
