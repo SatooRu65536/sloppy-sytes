@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>randomNominate</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <p>最小値
+        <input id="min" type="number" />
+    </p>
+    <p>最大値
+        <input id="max" type="number" />
+    </p>
+    <span id="switch">
+        <p>生成数
+            <input id="num" type="number" />
+        </p>
+    </span>
+    <button onclick="start()">生成</button>
+    <label>
+        <input id="cb" type="checkbox" />１つずつ
+    </label>
+
+    <div id="display" onclick="next()">
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>

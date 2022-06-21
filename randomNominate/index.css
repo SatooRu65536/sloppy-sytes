@@ -1,0 +1,38 @@
+body {
+    padding: 10px;
+    background-color: #eee;
+}
+
+#display {
+    margin-top: 50px;
+    height: 600px;
+}
+
+.nums {
+    margin: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+
+    font-size: 30px;
+    background: skyblue;
+}
+
+#fin{
+    margin: 10px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+
+    font-size: 30px;
+    background: red;
+    color: #fff;
+}

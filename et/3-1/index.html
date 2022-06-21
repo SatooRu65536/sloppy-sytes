@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>英語 3年1学期中間</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main onclick="touch()">
+    <p id="word"></p>
+    <p id="canswer"></p>
+    <p id="num"></p>
+  </main>
+
+  <label for="cbx">
+    <input type="checkbox" id="cbx" name="cbx" value="v1">日英を入れ替える
+  </label><br>
+  <label for="random">
+    <input type="checkbox" id="random" name="random" value="v1">ランダムにする
+  </label><br>
+  <label for="input">
+    <input type="text" id="number" size="5">単語目に移動
+  </label>
+
+  <div id="range">
+    <p class="range">Part9-1 → 1 ~ 22 単語目</p>
+    <p class="range">Part9-2 → 23 ~ 35 単語目</p>
+    <p class="range">Part9-3 → 36 ~ 50 単語目</p>
+    <p class="range">Part9-4 → 51 ~ 63 単語目</p>
+    <p class="range">Part1-1 → 64 ~ 77 単語目</p>
+    <p class="range">Part1-2 → 78 ~ 91 単語目</p>
+    <p class="range">Part1-3 → 92 ~ 107 単語目</p>
+    <p class="range">Part1-4 → 108 ~ 120 単語目</p>
+  </div>
+  <p>単語をタップして答え表示・次へ</p>
+</body>
+
+<script src="script.js"></script>
+
+</html>
