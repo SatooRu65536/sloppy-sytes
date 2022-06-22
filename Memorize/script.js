@@ -24,8 +24,7 @@ btn.addEventListener('click', () => {
 
 
 btn_eng.addEventListener('click', () => {
-    const eng_issue = 
-    `あなたは今、海で泳いでいると想像してください。\n\
+    const eng_issue = `あなたは今、海で泳いでいると想像してください。\n\
 ((Imagen)) you are swimming in the sea.\n\
 私はこの2週間で1冊の本を読み終えました。\n\
 I finished reading a book ((in)) the ((last)) two hours.\n\
@@ -104,7 +103,55 @@ He ((resigned)) ((from)) the company.\n\
 私たちは抗議して会議に出席しませんでした。\n\
 We didn't attend the meeting ((in)) ((protest)).\n\
 法律上の理由でここに建物を建設することができません。\n\
-You can't construct any buildings here ((on)) legal ((grounds)).`
+You can't construct any buildings here ((on)) legal ((grounds)).\n\n\
+授業中は起きていなければなりません。 \n\
+You must ((stay))  ((awake)) during class. \n\
+私たちはこの3時間でたくさん食べました。  \n\
+We ate a lot in ((the))  ((last)) three hours. \n\
+私たちの学校はインターネットの使用を認めています。  \n\
+Our school allows the ((use))  ((of)) the Internet. \n\
+母は7時に私を起こします。 \n\
+My mother ((wakes)) me ((up)) at seven. \n\
+そのサッカーチームは試合開始時に最良の状態でした。 \n\
+The soccer team was ((at)) its ((best)) when the game started. \n\
+自転車に乗ることができない子どもが何人かいます。 \n\
+There are some children who are ((unable)) to ride a bike. \n\
+多くの大学生がすでに職を見つけました。 \n\
+A ((number))  ((of)) university students have already found jobs. \n\
+努力したにも関わらず,彼女はテニスの試合に勝てませんでした。  \n\
+ ((Despite)) her effort, she wasn't able to win the tennis game. \n\
+あなたは米やパンを適度に食べなければなりません。  \n\
+You must eat rice or bread ((in))  ((moderation)) . \n\
+あなたの寄付はがんと闘う人々を助けます。 \n\
+Your donation will help people who ((fight))  ((against)) cancer. \n\
+確かにスマートフォンは高価ですが,機能がたくさんあります。 \n\
+It is ((true)) that smartphones are expensive, ((but)) they have a lot of functions. \n\
+喫煙はあなたの身体に悪影響を与えます。  \n\
+Smoking has negative ((effects))  ((on)) your body. \n\
+その調査によるとがんで死ぬ子どもの数が減少しています。  \n\
+The study shows that fewer children ((die))  ((of)) cancer. \n\
+一握りの人だけがその事実を知っていました。  \n\
+Only a ((handful))  ((of)) people knew the fact. \n\
+私はなんとかして最終電車に乗りました。  \n\
+I ((managed))  ((to)) get on the last train. \n\
+彼らは英語を話すよう期待されています。  \n\
+They are ((expected))  ((to)) speak English. \n\
+彼は数分の間,沈黙したままでした。 \n\
+He ((remained)) silent for a few minutes.  \n\
+遠くで鳥が歌っているのが聞こえますか。 \n\
+Can you hear birds singing ((far))  ((away)) ? \n\
+このようにして彼は故郷から出て行きました。 \n\
+In ((this))  ((way)) , he got out of his hometown \n\.
+彼らは家でテレビを見る代わりに外で遊びました。 \n\
+They played outside ((instead))  ((of)) watching TV at home.  \n\
+彼女は初の女性会長になりました。 \n\
+She became ((the))  ((first)) female president.  \n\
+この図書館には何千冊もの本があります。 \n\
+This library has ((thousands))  ((of)) books.  \n\
+私は先月辞職しました。 \n\
+I ((resigned))  ((from)) my job last month.  \n\
+彼は健康上の理由から軍を辞めました。 \n\
+He left the Army ((on)) health ((grounds)) .`
 
     generate(eng_issue);
 });
