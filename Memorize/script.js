@@ -1,13 +1,15 @@
 const btn = document.getElementById('btn');
 const btn_eng = document.getElementById('btn-eng');
+const btn_society = document.getElementById('btn-society');
+const width = document.getElementById('width');
 
 const generate = ((text) => {
     console.log(text);
 
     let i = 0;
     while (text.match(/[\S]*\(\([\S]+\)\)[\S]*/)) {
-        text = text.replace('((', `<a class="hole none" onclick="c(${i})">`);
-        text = text.replace('))', '</a>');
+        text = text.replace('((', `<span class="hole none" onclick="tauch(${i})">`);
+        text = text.replace('))', '</span>');
         i += 1;
     }
     text = text.replace(/\n/g, '<br>');
@@ -156,8 +158,26 @@ He left the Army ((on)) health ((grounds)) .`
     generate(eng_issue);
 });
 
+btn_society.addEventListener('click', () => {
+    const eng_issue = ``
 
-function c(n) {
+    generate(eng_issue);
+});
+
+
+width.addEventListener('input', () => {
+    const w = width.value;
+    const hole = document.getElementsByClassName('hole');
+
+    for (let i = 0; i < hole.length; i++) {
+        if (w == 0) hole[i].style.width = 'auto';
+        else if (w == 201) hole[i].style.width = 'auto';
+        else hole[i].style.width = w + 'px';
+    }
+});
+
+
+const tauch = (n) => {
     const hole = document.getElementsByClassName('hole');
     const class_list = hole[n].classList;
 

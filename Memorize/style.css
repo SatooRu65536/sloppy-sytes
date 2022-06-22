@@ -29,7 +29,12 @@ p, a {
   display: block;
 }
 
+#width {
+  width: 40%;
+}
+
 .hole {
+  display: inline-block;
   margin: 5px 5px;
   padding: 4px 10px 4px 10px;
   color: white;
