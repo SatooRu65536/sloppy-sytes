@@ -43,7 +43,7 @@ Mr.Green, a writer ((who)) wrote many novels, will comto our city.\n\
 あなたは最良の状態で試験を受けるべきです。\n\
 You should take the exam ((at)) your ((best)).\n\
 私たちはその電車に乗る事ができないかもしれません。\n\
-We may be ((unable)) (('to)) catch take the train.\n\n\
+We may be ((unable)) ((to)) catch take the train.\n\n\
 この新しいロボットは多くの人々に使用されるかもしれません。\n\
 This new robot might ((be)) ((used)) by many people.\n\
 多くの観光客が毎年、日本を訪れます。\n\
