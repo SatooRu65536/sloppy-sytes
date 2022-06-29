@@ -69,7 +69,7 @@ It is ((true)) your idea is good, ((but)) I can't agree with you.\n\
 その男性はガンで死にました。\n\
 The man ((died)) ((of)) cancer.\n\
 彼女の病気は悪化し始めました。\n\
-Her illness began to ((get)) ((wrose)).\n\
+Her illness began to ((get)) ((worse)).\n\
 10年前はほんの一握りの女性しかこの会社では働いていませんでした。\n\
 Only a ((handful)) ((of)) women worked at this company ten years ago.\n\
 私たちはなんとか駅まで歩いて行きました。\n\
