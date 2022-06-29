@@ -59,7 +59,7 @@ We should do some exercises ((in)) ((moderation)) every day.\n\n\
 生徒たちは明日、公園を掃除するのを手伝うつもりです。\n\
 The students are going to ((help)) ((clean)) the park tomorrow.\n\
 私はときどき父が車を洗うのを手伝います。\n\
-I sometimes ((help)) ((wash)) his car.\n\
+I sometimes ((help)) my father ((wash)) his car.\n\
 私たちはステーキを注文しました。加えて、サラダとスープを注文しました。\n\
 We ordered steak. ((In)) ((addition)) we ordered salad and soup.\n\
 確かにあなたの考えはいいですが、私はあなたに賛成することはできません。\n\
