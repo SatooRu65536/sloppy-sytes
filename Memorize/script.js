@@ -27,7 +27,7 @@ btn.addEventListener('click', () => {
 
 btn_eng.addEventListener('click', () => {
     const eng_issue = `あなたは今、海で泳いでいると想像してください。\n\
-((Imagen)) you are swimming in the sea.\n\
+((Imagine)) you are swimming in the sea.\n\
 私はこの2週間で1冊の本を読み終えました。\n\
 I finished reading a book ((in)) the ((last)) two hours.\n\
 彼は今、世界で最も有名な俳優です。\n\
